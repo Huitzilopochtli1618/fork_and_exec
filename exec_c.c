@@ -41,7 +41,3 @@ void usar_execlp()
 	execlp("xterm", "xterm", "-bg", "skyblue", "-fa",  "Monospace", "-fs", "18", "-e", "./exec", NULL);
 }
 
-void nada(){
-	int j;
-	return;
-}
