@@ -43,10 +43,11 @@ int main(int argc, char const *argv[])
 		}
 	}while(strcmp(nombre,"Sayonnara")!=0);
 
+	system("clear");
 	printf("Esperando a que termine el resto de partidas...\n");
+	esperarHijos();
 	system("clear");
 	printf("###### Servidor de juegos apagado ######\n");
-	esperarHijos();
 	
 	return 0;
 }

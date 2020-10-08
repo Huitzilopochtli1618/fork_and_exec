@@ -38,6 +38,6 @@ void usar_execvp()
 
 void usar_execlp()
 {
-	execlp("xterm", "xterm", "-bg", "skyblue", "-fa",  "Monospace", "-fs", "18", "-e", "./exec", NULL);
+	execlp("xterm", "xterm", "-bg", "skyblue", "-fa",  "Monospace", "-fs", "18", "-e", "vi", NULL);
 }
 
